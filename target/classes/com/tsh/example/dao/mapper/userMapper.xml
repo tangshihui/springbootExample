@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tsh.example.dao.UserMapper" >
+
+    <insert id="save" parameterType="com.tsh.example.model.User">
+        insert into User(name,gender,address) values(#{name},#{gender},#{address})
+    </insert>
+
+    <select id="selectById" resultType="com.tsh.example.model.User">
+        select * from User where id = #{id}
+    </select>
+
+    <update id="update" parameterType="com.tsh.example.model.User">
+        update User set
+        name = #{name} ,
+        gender = #{gender},
+        address=#{address}
+        where id = #{id}
+    </update>
+
+    <delete id="deleteById">
+        delete from user where id = #{id}
+    </delete>
+
+    <select id="listAll" resultType="com.tsh.example.model.User">
+        select * from User
+    </select>
+
+</mapper>
