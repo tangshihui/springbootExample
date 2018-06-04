@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/home/{homeId}")
+@RequestMapping("/home")
 public class HomeController {
 
     @Autowired
     UserService userService;
 
-    @RequestMapping(value = "/hello/{detailId}", method = RequestMethod.GET)
+    @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String hello(@PathVariable(value = "homeId",required = false) String homeId,@PathVariable( value="detailId",required = false) String detailId) {
         return "hello,world!" + "homeId:" + homeId + (detailId != null ? "detailId:" + detailId : "");
     }

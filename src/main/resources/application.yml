@@ -20,3 +20,10 @@ spring:
 mybatis:
   mapperLocations: classpath*:com/tsh/example/dao/mapper/*.xml
   typeAliasesPackage: com.tsh.example.model
+
+miniapp:
+  common:
+    appId: 982392yrfdfs
+    key: 987323fsfsdfs
+server:
+  port: 8090
