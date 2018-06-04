@@ -10,31 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9f776f5-a2c0-4026-be2c-302d6d22a9a2" name="Default" comment="add">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tsh/example/Configuration/CommonConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tsh/example/Configuration/CommonProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tsh/example/service/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tsh/example/service/BigCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tsh/example/service/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tsh/example/service/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tsh/example/service/Tool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tsh/example/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis_generator.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsh/example/ExampleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsh/example/ExampleApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsh/example/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsh/example/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsh/example/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsh/example/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tsh/example/ExampleApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tsh/example/ExampleApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tsh/example/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tsh/example/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tsh/example/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tsh/example/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tsh/example/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tsh/example/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AppTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -144,16 +122,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+            <state relative-caret-position="143">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mybatis_generator.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mybatis_generator.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis_generator.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
@@ -213,7 +191,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/mybatis_generator.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/tsh/example/ExampleApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tsh/example/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ServletInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tsh/example/controller/GlobalException.java" />
@@ -226,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tsh/example/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestMsg.java" />
         <option value="$PROJECT_DIR$/src/test/java/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -620,7 +598,7 @@
       <workItem from="1527814718969" duration="4610000" />
       <workItem from="1527950935294" duration="233000" />
       <workItem from="1528009942727" duration="688000" />
-      <workItem from="1528074117543" duration="801000" />
+      <workItem from="1528074117543" duration="865000" />
     </task>
     <task id="LOCAL-00001" summary="add global exception">
       <created>1526567937243</created>
@@ -643,7 +621,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526568158072</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add">
+      <created>1528075664965</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528075664965</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -679,7 +664,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76618000" />
+    <option name="totallyTimeSpent" value="76682000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -692,6 +677,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5020107" side_tool="true" weight="0.67655367" />
@@ -707,12 +693,12 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952926" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.5621469" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.5621469" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32952926" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32768363" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32768363" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.4279661" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32956153" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32952926" />
@@ -1195,17 +1181,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis_generator.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
