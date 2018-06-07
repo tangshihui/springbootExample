@@ -7,7 +7,10 @@
     <groupId>com.tsh</groupId>
     <artifactId>example</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <modules>
+        <module>MobileService</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -23,6 +26,12 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.tsh</groupId>
+            <artifactId>MobileService</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
