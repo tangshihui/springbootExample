@@ -17,7 +17,11 @@ public class HomeController {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String hello(@PathVariable(value = "homeId",required = false) String homeId,@PathVariable( value="detailId",required = false) String detailId) {
-        return "hello,world!" + "homeId:" + homeId + (detailId != null ? "detailId:" + detailId : "");
+
+        System.out.println("访问量999");
+        return "hello,world!"
+                + "homeId:" + homeId
+                + (detailId != null ? "detailId:" + detailId : "");
     }
 
     @RequestMapping(value = "/getuser", method = RequestMethod.GET)
